@@ -8,6 +8,13 @@ public class  LineCompare
    double length=Math.sqrt((x2-x1)^2 + (y2-y1)^2);	
 	
 	System.out.println("length of the line is : "+length);
+	System.out.println("Check The Equality of the two lines ");
+	System.out.println(x1==(y1));
+	System.out.println(y1==(x1));
+	System.out.println(y2==(x1));
+	System.out.println(x2==(y1));
+	System.out.println(x2==(y2));
+
 	}
 }
 
